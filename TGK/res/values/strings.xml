@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TGK</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_wybor_bohatera">Wybierz Bohatera</string>
+    <string name="graj">GRAJ</string>
+    <string name="title_activity_wybor_jednostek">Wybierz Drużynę</string>
+    <string name="title_activity_mapa">Mapa</string>
+    <string name="title_activity_walka">Walka</string>
+    <string name="description">OpisImageButtona</string>
+    <string name="title_activity_nagroda">NagrodaActivity</string>
+
+</resources>

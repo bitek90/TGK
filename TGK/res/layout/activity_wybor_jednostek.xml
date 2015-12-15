@@ -1,0 +1,609 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.tgk.WyborJednostekActivity"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/jednostki"
+    android:baselineAligned="false"
+    android:background="@drawable/tlo_jeden" >
+
+        <ViewFlipper
+            android:id="@+id/viewFlipper1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TableLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1" >
+
+                    <TableRow
+                        android:id="@+id/t1"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1" >
+
+                        <Button
+                            android:id="@+id/btnMar1"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="0.25"
+                            android:minHeight="150dp" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/t2"
+                        android:layout_margin="5dp"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1" >
+
+                        <TextView
+                            android:id="@+id/opisMar1"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="0.25"
+                            android:text="TextView"
+                           
+                            android:textSize="9sp" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/t3"
+                        android:layout_margin="5dp"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1" >
+
+                        <Button
+                            android:id="@+id/btnMar2"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="0.25"
+                            android:minHeight="150dp" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/t4"
+                        android:layout_margin="5dp"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1" >
+
+                        <TextView
+                            android:id="@+id/opisMar2"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="0.25"
+                            android:text="TextView"
+                            android:textSize="9sp" />
+                    </TableRow>
+                </TableLayout>
+
+                <TableLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1" >
+
+                    <TableRow
+                        android:id="@+id/t5"
+                        android:layout_margin="5dp"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1" >
+
+                        <Button
+                            android:id="@+id/btnMar3"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:minHeight="150dp" 
+                            android:layout_weight="0.25" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/t6"
+                        android:layout_margin="5dp"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1" >
+
+                        <TextView
+                            android:id="@+id/opisMar3"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="0.25"
+                            android:text="TextView"
+                            android:textSize="9sp" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/t7"
+                        android:layout_margin="5dp"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1" >
+
+                        <Button
+                            android:id="@+id/btnMar4"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:minHeight="150dp" 
+                            android:layout_weight="0.25" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/t8"
+                        android:layout_margin="5dp"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1" >
+
+                        <TextView
+                            android:id="@+id/opisMar4"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="0.25"
+                            android:text="TextView"
+                            android:textSize="9sp" />
+
+                    </TableRow>
+                </TableLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TableLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1" >
+
+                    <TableRow
+                        android:id="@+id/t9"
+                        android:layout_margin="5dp"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1" >
+
+                        <Button
+                            android:id="@+id/btnTank1"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="0.25"
+                            android:minHeight="150dp" />
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/t10"
+                        android:layout_margin="5dp"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1" >
+
+                        <TextView
+                            android:id="@+id/opisTank1"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="0.25"
+                            android:text="TextView"
+                            android:textSize="9sp" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/t11"
+                        android:layout_margin="5dp"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1" >
+
+                        <Button
+                            android:id="@+id/btnTank2"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:minHeight="150dp" 
+                            android:layout_weight="0.25" />
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/t12"
+                        android:layout_margin="5dp"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1" >
+
+                        <TextView
+                            android:id="@+id/opisTank2"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="0.25"
+                            android:text="TextView"
+                            android:textSize="9sp" />
+
+                    </TableRow>
+                </TableLayout>
+
+                <TableLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1" >
+
+                    <TableRow
+                        android:id="@+id/t13"
+                        android:layout_margin="5dp"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1" >
+
+                        <Button
+                            android:id="@+id/btnTank3"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:minHeight="150dp" 
+                            android:layout_weight="0.25" />
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/t14"
+                        android:layout_margin="5dp"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1" >
+
+                        <TextView
+                            android:id="@+id/opisTank3"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="0.25"
+                            android:text="TextView"
+                            android:textSize="9sp" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/t15"
+                        android:layout_margin="5dp"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1" >
+
+                        <Button
+                            android:id="@+id/btnTank4"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:minHeight="150dp" 
+                            android:layout_weight="0.25" />
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/t16"
+                        android:layout_margin="5dp"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1" >
+
+                        <TextView
+                            android:id="@+id/opisTank4"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="0.25"
+                            android:text="TextView"
+                            android:textSize="9sp" />
+
+                    </TableRow>
+                </TableLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TableLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1" >
+
+                    <TableRow
+                        android:id="@+id/t17"
+                        android:layout_margin="5dp"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1" >
+
+                        <Button
+                            android:id="@+id/btnRngr1"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:minHeight="150dp" 
+                            android:layout_weight="0.25" />
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/t18"
+                        android:layout_margin="5dp"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1" >
+
+                        <TextView
+                            android:id="@+id/opisRngr1"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="0.25"
+                            android:text="TextView"
+                            android:textSize="9sp" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/t19"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1" >
+
+                        <Button
+                            android:id="@+id/btnRngr2"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:minHeight="150dp" 
+                            android:layout_weight="0.25" />
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/t20"
+                        android:layout_margin="5dp"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1" >
+
+                        <TextView
+                            android:id="@+id/opisRngr2"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="0.25"
+                            android:text="TextView"
+                            android:textSize="9sp" />
+
+                    </TableRow>
+                </TableLayout>
+
+                <TableLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1" >
+
+                    <TableRow
+                        android:id="@+id/t21"
+                        android:layout_margin="5dp"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1" >
+
+                        <Button
+                            android:id="@+id/btnRngr3"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:minHeight="150dp" 
+                            android:layout_weight="0.25" />
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/t22"
+                        android:layout_margin="5dp"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1" >
+
+                        <TextView
+                            android:id="@+id/opisRngr3"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="0.25"
+                            android:text="TextView"
+                            android:textSize="9sp" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/t23"
+                        android:layout_margin="5dp"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1" >
+
+                        <Button
+                            android:id="@+id/btnRngr4"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:minHeight="150dp" 
+                            android:layout_weight="0.25" />
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/t24"
+                        android:layout_margin="5dp"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1" >
+
+                        <TextView
+                            android:id="@+id/opisRngr4"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="0.25"
+                            android:text="TextView"
+                            android:textSize="9sp" />
+
+                    </TableRow>
+                </TableLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TableLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1" >
+
+                    <TableRow
+                        android:id="@+id/t25"
+                        android:layout_margin="5dp"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1" >
+
+                        <Button
+                            android:id="@+id/btnMage1"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:minHeight="150dp" 
+                            android:layout_weight="0.25" />
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/t26"
+                        android:layout_margin="5dp"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1" >
+
+                        <TextView
+                            android:id="@+id/opisMage1"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="0.25"
+                            android:text="TextView"
+                            android:textSize="9sp" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/t27"
+                        android:layout_margin="5dp"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1" >
+
+                        <Button
+                            android:id="@+id/btnMage2"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:minHeight="150dp" 
+                            android:layout_weight="0.25" />
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/t28"
+                        android:layout_margin="5dp"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1" >
+
+                        <TextView
+                            android:id="@+id/opisMage2"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="0.25"
+                            android:text="TextView"
+                            android:textSize="9sp" />
+
+                    </TableRow>
+                </TableLayout>
+
+                <TableLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1" >
+
+                    <TableRow
+                        android:id="@+id/t29"
+                        android:layout_margin="5dp"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1" >
+
+                        <Button
+                            android:id="@+id/btnMage3"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:minHeight="150dp" 
+                            android:layout_weight="0.25" />
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/t30"
+                        android:layout_margin="5dp"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1" >
+
+                        <TextView
+                            android:id="@+id/opisMage3"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="0.25"
+                            android:text="TextView"
+                            android:textSize="9sp" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/t31"
+                        android:layout_margin="5dp"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1" >
+
+                        <Button
+                            android:id="@+id/btnMage4"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:minHeight="150dp" 
+                            android:layout_weight="0.25" />
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/t32"
+                        android:layout_margin="5dp"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1" >
+
+                        <TextView
+                            android:id="@+id/opisMage4"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="0.25"
+                            android:text="TextView"
+                            android:textSize="9sp" />
+
+                    </TableRow>
+                </TableLayout>
+
+            </LinearLayout>
+
+        </ViewFlipper>
+
+    </LinearLayout>

@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/tlo_hero"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.tgk.WyborBohateraActivity" >
+
+    <LinearLayout
+        android:id="@+id/LinearLayout01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true" >
+
+    <ViewAnimator
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/viewAnimator"
+        android:layout_centerHorizontal="true">
+
+       <LinearLayout
+           android:layout_width="fill_parent"
+           android:layout_height="match_parent"
+           android:layout_centerHorizontal="true"
+           android:layout_marginTop="10dp"
+           android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/twNazwaBoh1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:text="BARBARZYŃCA JOHN"
+                android:textColor="#445544"
+                android:textSize="@dimen/activity_horizontal_margin" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" >
+
+                <ImageView
+                    android:id="@+id/imgBoh1"
+                    android:layout_width="150dp"
+                    android:layout_height="200dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/barbarian"
+                    android:maxHeight="100dp"
+                    android:maxWidth="100dp"
+                    android:minHeight="100dp"
+                    android:minWidth="100dp" />
+
+                <TextView
+                    android:id="@+id/twOpisBoh1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="John to wspaniały wojownik. Urodził się w małej wiosce Kulga. Ojciec od małego uczył go posługiwania się bronią. Po zajęciu tej małej wioski przez Imerium Nowego Świata, został pojamny a następnie uciekł z niewoli. Przysiągł sobie ścigać i mordować polityków imperium. Jego wyszkolenie w walce daje mu 6 punktów ataku, 4 punkty obrony, jego życie opiewa na 11 punktów. Czy chcesz rozpocząć podróż wraz z nim?"
+                    android:textColor="#444444"
+                    android:textSize="10sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:id="@+id/twNazwaBoh2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="PANI NATURY"
+                android:textColor="#444444" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" >
+
+                <ImageView
+                    android:id="@+id/imgBoh2"
+                    android:layout_width="150dp"
+                    android:layout_height="200dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/drzewo"
+                    android:maxHeight="100dp"
+                    android:maxWidth="100dp"
+                    android:minHeight="100dp"
+                    android:minWidth="100dp" />
+
+                <TextView
+                    android:id="@+id/twOpisBoh2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Nikt nie pamięta początków Pani Natury. Występuje pod postacią kobiety, towarzyszy jej zawsze wierny przyjaciel, potężny tygrys Pazur. Objawiła się by położyć kres szkodliwym działaniom nikczemnych królów, szalonych nekromantów. Mowią że sama Ziemia poprosiła ją o pomoc. Posiada 6 punktów ataku, broni się 3 punktami, jej zdrowie to 15 punktów. Czy chcesz kontynuować jej wędrówkę ?"
+                    android:textColor="#444444"
+                    android:textSize="10sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+       <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:id="@+id/twNazwaBoh3"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="SIEWCA ZAGŁADY"
+                android:textColor="#444444" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" >
+
+                <ImageView
+                    android:id="@+id/imgBoh3"
+                    android:layout_width="150dp"
+                    android:layout_height="200dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/bridge"
+                    android:maxHeight="100dp"
+                    android:maxWidth="100dp"
+                    android:minHeight="100dp"
+                    android:minWidth="100dp" />
+
+                <TextView
+                    android:id="@+id/twOpisBoh3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Siewca to wskrzeszony szklielet w krypcie najokrótniejszego tyrana zamierzchłych czasów. Marko de Rossi był znany z bezwzględności, a jego postać chodzi teraz po świecie jako szkielet. Pragnie szerzyć chaos i zagładę dla królestw całego kontynentu. Posiada kosę, która pozwala mu na 7 punktów ataku i tylko 2 punkty obrony. Liczy sobie 9 punktów życia. Czy wybierzesz go do swojej wędrówki?"
+                    android:textColor="#444444"
+                    android:textSize="10sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ViewAnimator>
+    </LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/LinearLayout02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="330dp" >
+     <Button
+            android:id="@+id/btnWybierz"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="WYBIERZ" />
+     </LinearLayout>
+
+ 	<LinearLayout
+        android:id="@+id/LinearLayout03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="400dp" >
+
+        <Button
+            android:id="@+id/btnPoprzedni"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/previous"
+            android:text="" />
+       
+        <Button
+            android:id="@+id/btnNastepny"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/next"
+            android:text="" />
+
+    </LinearLayout>
+
+</RelativeLayout>
